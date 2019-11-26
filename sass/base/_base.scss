@@ -1,0 +1,43 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+ 
+html {
+  box-sizing: border-box;
+}
+ 
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+	font-size: $base-font-size;
+	color: $base-font-color;
+	background: $body-bg-color;
+}
+
+a {
+  color: $brand-color;
+  text-decoration: none;
+  @include transition(all 0.3s ease-in-out);
+
+  @include on-event {
+    color: $text-color;
+    text-decoration: none;
+  }
+}
+
+::-moz-selection {
+    background	:$selection-bg-color;
+    text-shadow	:none;
+	color 		:$selection-text-color;
+}
+
+::selection {
+    background		:$selection-bg-color;
+    text-shadow		:none;
+	color 			:$selection-text-color;
+}
+

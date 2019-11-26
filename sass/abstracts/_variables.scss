@@ -1,0 +1,37 @@
+
+$base-font: 'Gotham Regular', 'Arial', sans-serif !default;
+$bold-font: 'Gotham Bold', 'Arial', sans-serif !default;
+$thin-font: 'Gotham Thin', 'Arial', sans-serif !default;
+$light-font: 'Gotham Light', 'Arial', sans-serif !default;
+$medium-font: 'Gotham Medium', 'Arial', sans-serif !default;
+$code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
+
+$base-font-size: 14px;
+
+$h1-font-size: 3em;
+$h2-font-size: 2.6em;
+$h3-font-size: 2.2em;
+$h4-font-size: 2em; 
+$h5-font-size: 1.83em;
+$h6-font-size: 1.5em;
+
+$base-font-color: #000;
+$body-bg-color: #FFF;
+$selection-bg-color: #02C39A; 	
+$selection-text-color: #FFFF; 
+
+$text-color: rgb(34, 34, 34) !default;
+$brand-color: rgb(229, 0, 80) !default;
+$light-grey: rgb(237, 237, 237) !default;
+$mid-grey: rgb(153, 153, 153) !default;
+$dark-grey: rgb(68, 68, 68) !default;
+
+$max-width: 1180px !default;
+
+$breakpoints: (
+  'small': 320px,
+  'medium': 768px,
+  'large': 1024px,
+) !default;
+
+$base-url: '/assets/' !default;

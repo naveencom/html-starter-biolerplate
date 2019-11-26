@@ -1,0 +1,126 @@
+.nav-icon {
+	display: none;
+}
+
+.logo {
+	float: left;
+}
+
+.top-header {
+    height: 40px;
+    border-bottom: 1px solid #dddd;
+    line-height: 40px;
+    margin-bottom: 30px;
+
+    .email {
+    	color: #7F92A6;
+    	font-size: 12px;
+        padding-right: 20px;
+        border-right: 1px solid #dddd;
+        line-height: 40px;
+        display: inline-block;
+
+        i {
+        	color: #BFCBD9;
+        	margin-right: 10px;
+        	font-size: 14px;
+        }
+    }
+}
+
+.socila-links {
+	float: right;
+	display: inline-block;
+
+	a {
+		display: inline-block;
+		border-left: 1px solid #dddd;
+		padding: 0 15px;
+	    float: left;
+
+	    &:hover {
+	    	background-color: #eee;
+	    }
+	}
+
+	i {
+		color: #BFCBD9;
+		font-size: 14px;
+	}
+}
+
+.main-menu {
+	float: right;
+	display: block;
+	background-color: #fff;
+
+	a {
+		padding: 0 20px;
+		color: #05668D;
+		line-height: 60px;
+		display: inline-block;
+		font-size: 13px;
+		font-family: $medium-font;
+
+		&:hover,
+		&.active {
+			color: #FFF;
+			background-color: #02C39A;
+		}
+	}
+
+	&.menu-opened {
+		display: block;
+	}
+}
+ 
+
+/* Menu "Hamburger" Icon Animations ------------------------ */
+
+.nav-icon {
+	float: right;
+	width: 28px;
+    height: 20px;
+	position: relative;
+	cursor: pointer;
+	display: none;
+
+	@include transform-rotate(0);
+	@include transition(.5s ease-in-out);
+
+	span {
+		display: block;
+		position: absolute;
+		height: 4px;
+		width: 100%;
+		background: #02C39A;
+		opacity: 1;
+		left: 0;
+
+		@include transform-rotate(0);
+		@include transition(.25s ease-in-out);
+
+		&:nth-child(1) {top: 0px; }
+		&:nth-child(2) {top: 8px;}
+		&:nth-child(3) {top: 16px;}
+	}
+}
+  
+.nav-icon.open span  {
+	
+	&:nth-child(1) {
+		top: 8px;
+		@include transform-rotate(135);
+	}
+
+	&:nth-child(2) {
+		opacity: 0;
+		left: -60px;
+	}
+
+	&:nth-child(3) {
+		top: 8px;
+		@include transform-rotate(-135);
+	}
+
+}

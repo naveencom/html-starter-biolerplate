@@ -1,0 +1,59 @@
+// -----------------------------------------------------------------------------
+// This file contains all @font-face declarations, if any.
+// -----------------------------------------------------------------------------
+@charset "UTF-8"; 
+
+@font-face {
+  font-family: 'Gotham thin';
+  src:  url('../fonts/thin/GothamThin.eot');
+  src:  url('../fonts/thin/GothamThin.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/thin/GothamThin.woff') format('woff'),
+        url('../fonts/thin/GothamThin.ttf') format('truetype'),
+        url('../fonts/thin/GothamThin.svg#GothamThin') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Light';
+  src:  url('../fonts/light/Gotham-Light.eot');
+  src:  url('../fonts/light/Gotham-Light.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/light/Gotham-Light.woff') format('woff'),
+        url('../fonts/light/Gotham-Light.ttf') format('truetype'),
+        url('../fonts/light/Gotham-Light.svg#Gotham-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Bold';
+  src:  url('../fonts/bold/Gotham-Bold.eot');
+  src:  url('../fonts/bold/Gotham-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/bold/Gotham-Bold.woff') format('woff'),
+        url('../fonts/bold/Gotham-Bold.ttf') format('truetype'),
+        url('../fonts/bold/Gotham-Bold.svg#Gotham-bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Regular';
+  src:  url('../fonts/book/Gotham-Book.eot');
+  src:  url('../fonts/book/Gotham-Book.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/book/Gotham-Book.woff') format('woff'),
+        url('../fonts/book/Gotham-Book.ttf') format('truetype'),
+        url('../fonts/book/Gotham-Book.svg#Gotham-book') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham Medium';
+  src:  url('../fonts/medium/Gotham-medium.eot');
+  src:  url('../fonts/medium/Gotham-medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/medium/Gotham-medium.woff') format('woff'),
+        url('../fonts/medium/Gotham-medium.ttf') format('truetype'),
+        url('../fonts/medium/Gotham-medium.svg#Gotham-medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
