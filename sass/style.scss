@@ -1,7 +1,6 @@
 /* ========================================
 
-  Author  : NAVEEN Y
-  Find Me : https://twitter.com/naveen__y 
+  Author  : NAVEEN
 
 =========================================== */
 
@@ -17,14 +16,13 @@
 
 // 3. Base stuff
 @import 'base/base';
-@import 'base/fonts';
+// @import 'base/fonts';
 @import 'base/typography';
 @import 'base/helpers';
 @import 'base/bootstrap-overrides';
 
 // 4. Layout-related sections
 @import 'layout/header';
-@import 'layout/home-banner';
 @import 'layout/footer';
 
 // 5. Components
