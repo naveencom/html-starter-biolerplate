@@ -10,12 +10,15 @@
 }
  
 .container {
-  max-width: $max-width; 
-  margin-left: auto; 
-  margin-right: auto; 
-  padding-left: 20px; 
-  padding-right: 20px; 
-  width: 100%; 
+  max-width: 1024px; 
+  width: 90%; 
+  margin: 0 auto;
+
+  &::after {
+    clear: both;
+    content: '';
+    display: table;
+  }
  }
  
 .hide-text {

@@ -4,7 +4,21 @@ html, body{
   -webkit-font-smoothing: antialiased;
 }
 
-body, div, dl, dt, dd, ul, ol, li, pre, p, form, blockquote, address, th, td {
+body, 
+div, 
+dl, 
+dt, 
+dd, 
+ul, 
+ol, 
+li, 
+pre, 
+p, 
+form, 
+blockquote, 
+address, 
+th, 
+td {
   font-family: $base-font;
 }
 
@@ -28,12 +42,12 @@ h6 { font-size: $h6-font-size; }
 
 em, i {
   font-family: $base-font;
-  font-style  : italic;
+  font-style: italic;
 } 
 
 strong, b {
   font-family: $bold-font;
-  font-weight: normal;
+  font-weight: $font-weight;
 }
 
 h1 i, 
@@ -43,7 +57,7 @@ h4 i,
 h5 i, 
 h6 i {
   font-family: $base-font;
-  font-style  : italic;
+  font-style: italic;
 }
 
 blockquote {
@@ -73,7 +87,8 @@ code {
 p {
 	margin:0 0 15px;
 	line-height: 22px;
-	&:first-child{margin-top:0; }
+  
+	&:first-child{ margin-top:0; }
 	&:last-child{ margin-bottom:0; }
 }
 
